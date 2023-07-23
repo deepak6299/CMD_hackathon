@@ -1,0 +1,187 @@
+{
+  "posts": [],
+  "Patient": [
+    {
+      "id": 1,
+      "name": "Deepak Kumar",
+      "gender": "Male",
+      "age": 20,
+      "mobile_number": 6299543956,
+      "date_of_birth": "2023-02-10",
+      "address": ""
+    },
+    {
+      "id": 2,
+      "name": "Abhishek Singh",
+      "gender": "Male",
+      "age": 25,
+      "mobile_number": 458712396,
+      "date_of_birth": "2023-02-24",
+      "address": ""
+    },
+    {
+      "id": 3,
+      "name": "vonod",
+      "gender": "Male",
+      "age": 23,
+      "mobile_number": 6299543956,
+      "date_of_birth": "2023-03-01",
+      "address": ""
+    },
+    {
+      "id": 4,
+      "name": "",
+      "gender": "",
+      "age": "",
+      "mobile_number": "",
+      "date_of_birth": "",
+      "address": ""
+    },
+    {
+      "id": 5,
+      "name": "asdfghjk",
+      "gender": "",
+      "age": "",
+      "mobile_number": "",
+      "date_of_birth": "",
+      "address": ""
+    },
+    {
+      "id": 6,
+      "name": "Raju",
+      "gender": "Male",
+      "age": 23,
+      "mobile_number": 7896541230,
+      "date_of_birth": "2023-03-09",
+      "address": ""
+    },
+    {
+      "id": 7,
+      "name": "jay Kumar",
+      "gender": "Male",
+      "age": 30,
+      "mobile_number": 7412589630,
+      "date_of_birth": "1993-07-14",
+      "address": ""
+    }
+  ],
+  "Doctor": [
+    {
+      "id": 1,
+      "name": "sholratna ",
+      "speciality": "doctor",
+      "gender": "Male",
+      "age": 23
+    },
+    {
+      "id": 2,
+      "name": "pankaj kumar",
+      "speciality": "Dentist",
+      "gender": "Male",
+      "age": 23
+    },
+    {
+      "id": 3,
+      "name": "Ankit Garg ",
+      "speciality": "Eye Speciality",
+      "gender": "Male",
+      "age": 25
+    },
+    {
+      "id": 4,
+      "name": "lkjhgfcdcvbnm,",
+      "speciality": "",
+      "gender": "",
+      "age": ""
+    },
+    {
+      "id": 5,
+      "name": "mohan",
+      "speciality": "dibeties specialities",
+      "gender": "Male",
+      "age": 32
+    }
+  ],
+  "Appointment": [
+    {
+      "id": 1,
+      "date": "2023-03-03",
+      "time": "12:12",
+      "duration": "30min",
+      "reason": "asdfgh",
+      "status": "yes",
+      "patient": "",
+      "doctor": "pankaj kumar"
+    },
+    {
+      "id": 2,
+      "date": "",
+      "time": "",
+      "duration": "",
+      "reason": "",
+      "status": "",
+      "patient": "",
+      "doctor": "pankaj kumar"
+    },
+    {
+      "id": 3,
+      "date": "",
+      "time": "",
+      "duration": "",
+      "reason": "",
+      "status": "",
+      "patient": "",
+      "doctor": "pankaj kumar"
+    },
+    {
+      "id": 4,
+      "date": "2023-03-01",
+      "time": "14:22",
+      "duration": "30min",
+      "reason": "General checkup",
+      "status": "no",
+      "patient": "",
+      "doctor": "pankaj kumar"
+    },
+    {
+      "id": 5,
+      "date": "2023-02-27",
+      "time": "12:21",
+      "duration": "30min",
+      "reason": "no",
+      "status": "yes",
+      "patient": "Abhishek Singh",
+      "doctor": "sholratna"
+    },
+    {
+      "id": 6,
+      "date": "2023-03-02",
+      "time": "14:09",
+      "duration": "15 min",
+      "reason": "jhgfdsa",
+      "status": "Active",
+      "patient": "vonod",
+      "doctor": "pankaj kumar"
+    },
+    {
+      "id": 7,
+      "date": "",
+      "time": "",
+      "duration": "",
+      "reason": "",
+      "status": "",
+      "patient": "Abhishek Singh",
+      "doctor": ""
+    },
+    {
+      "id": 8,
+      "date": "2023-03-16",
+      "time": "11:11",
+      "duration": "30 min",
+      "reason": "sasdfghj",
+      "status": "Active",
+      "patient": "Deepak Kumar",
+      "doctor": "pankaj kumar"
+    }
+  ]
+}

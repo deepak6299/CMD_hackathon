@@ -1,0 +1,33 @@
+
+<form class="form" [formGroup]="patientForm" >
+    <h3>Add Patient</h3>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" class="form-control"  formControlName="name" placeholder="Enter your Name">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Gender</label>
+        <select id="inputState" class="form-control" formControlName="gender">
+          <option selected>Male</option>
+          <option>Female</option>
+          <option>Others</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Age </label>
+        <input type="number" class="form-control" formControlName="age" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your age">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Date Of Birth </label>
+        <input type="date" class="form-control" id="date" formControlName="date_of_birth" aria-describedby="emailHelp" placeholder="Enter your age">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Mobile Number</label>
+        <input type="number" class="form-control" formControlName="mobile_number" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your age">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Address</label>
+        <textarea class="form-control" formControlName="  address" id="exampleFormControlTextarea1" rows="3" placeholder="Leave acomment here"></textarea>
+      </div>  <br>
+      <button class="btn btn-primary" (click)="Patient()">Add Patient</button>
+  </form>
